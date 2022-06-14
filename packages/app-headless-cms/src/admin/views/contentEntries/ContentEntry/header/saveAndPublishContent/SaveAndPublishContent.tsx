@@ -44,6 +44,7 @@ const SaveAndPublishButton: React.FC = () => {
                 });
             }}
             disabled={loading}
+            data-testid="cms-content-save-publish-content-button"
         >
             {t`Save & Publish`}
         </ButtonPrimary>
